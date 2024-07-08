@@ -20,8 +20,9 @@
     "screenshots": [
         {
             "src": "images/Screenshot1.png",
-            "sizes": "1920x1080",
-            "type": "image/png"
+            "sizes": "1920x1200",
+            "type": "image/png",
+            "form_factor": "wide"
         }
     ]
 }
