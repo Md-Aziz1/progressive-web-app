@@ -23,6 +23,12 @@
             "sizes": "1920x1200",
             "type": "image/png",
             "form_factor": "wide"
+        },
+        {
+            "src": "images/Screenshot2.png",
+            "sizes": "1080x2400",
+            "type": "image/png",
+            "form_factor": "wide"
         }
     ]
 }
