@@ -25,10 +25,8 @@
             "form_factor": "wide"
         },
         {
-            "src": "images/Screenshot2.png",
+            "src": "images/Screenshot2.jpg",
             "sizes": "1080x2400",
-            "type": "image/png",
-            "form_factor": "wide"
-        }
+            "type": "image/jpg"        }
     ]
 }
