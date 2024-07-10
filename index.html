@@ -1,16 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="theme-color" content="#009578">
-        <title>PWA</title>
-        <link rel="stylesheet" href="src/master.css">
-        <link rel="manifest" href="manifest.json">
-        <link rel = "apple-touch-icon" href = "images/logo192.png">
-    </head>
-    <body>
-        <p>Hi my name is Md Aziz Ali Hello EveryOne</p>
-        <script src="src/index.js"></script>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#009578">
+    <title>PWA - Enhanced</title>
+    <link rel="stylesheet" href="src/master.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="images/logo192.png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #009578;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .content {
+            padding: 20px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .gallery img {
+            margin: 5px;
+            width: calc(33% - 10px);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Enhanced Web Page</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="content">
+        <section id="home">
+            <h2>Home</h2>
+            <p>Hi, my name is Md Aziz Ali. Hello Everyone! Welcome to my enhanced web page.</p>
+        </section>
+        <section id="about">
+            <h2>About</h2>
+            <p>This is a basic example of a Progressive Web App (PWA) with additional features. You can navigate through different sections, and view images in the gallery.</p>
+        </section>
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <div class="gallery">
+                <img src="images/image1.jpg" alt="Image 1">
+                <img src="images/image2.jpg" alt="Image 2">
+                <img src="images/image3.jpg" alt="Image 3">
+                <img src="images/image4.jpg" alt="Image 4">
+                <img src="images/image5.jpg" alt="Image 5">
+                <img src="images/image6.jpg" alt="Image 6">
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>For more information, please contact me at <a href="mailto:mdazizali@example.com">mdazizali@example.com</a>.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Md Aziz Ali. All rights reserved.</p>
+    </footer>
+    <script src="src/index.js"></script>
+</body>
 </html>
